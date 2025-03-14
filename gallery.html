@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
   <head>
     <title>Reach out for charity foundation</title>
@@ -216,7 +215,7 @@ Header START -->
                 </li>
                 <li class="nav-item">
                   <a class="navbar-link text-white text-primary-hover" href="#"
-                    ><i class="fas fa-headset me-2"></i>Call us now: 07773
+                    ><i class="fas fa-headset me-2"></i>Call us now: +44 07773
                     021757</a
                   >
                 </li>
@@ -287,7 +286,9 @@ Header START -->
           <!-- Main Menu START -->
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll navbar-nav-scroll mx-auto">
-              <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+              <li class="nav-item">
+                <a class="nav-link" href="home.html">Home</a>
+              </li>
               <li class="nav-item">
                 <a class="nav-link" href="aboutus.html" aria-haspopup="true"
                   >Who We Are</a
@@ -333,6 +334,8 @@ Header START -->
       </nav>
       <!-- Logo Nav END -->
     </header>
+    <!-- =======================
+Header END -->
     <!-- **************** MAIN CONTENT START **************** -->
     <main>
       <!-- =======================
@@ -550,7 +553,7 @@ Portfolio END -->
 
 <!-- Gallery ends -->
 
-Footer START -->
+<!-- Footer START  -->
     <footer class="bg-dark footer-sticky pt-6">
       <div class="container">
         <div class="row">
@@ -574,7 +577,7 @@ Footer START -->
             <address class="mb-0">15 Avoncroft Road B60 4NG Bromsgrove</address>
             <p>
               Call:
-              <a href="#" class="text-body"><u>07773 021757</u></a>
+              <a href="#" class="text-body"><u>+44 07773 021757</u></a>
             </p>
           </div>
 
@@ -634,13 +637,11 @@ Footer START -->
 
         <!-- Footer copyright START -->
         <div class="row align-items-center justify-content-md-between py-4">
-          <div class="col-md-6">
-            <div class="text-center text-md-start">
-              ©{{ date('Y') }}
-              <a href="#" target="_blank">21st Century Evolution</a>. All rights
-              reserved
-            </div>
-          </div>
+            <div class="col-md-6">
+                <div class="text-center text-md-start">
+                  ©Reach Out to Charity Foundation. All rights reserved
+                </div>
+              </div>
           <div class="col-md-6">
             <ul
               class="nav justify-content-center justify-content-md-end mt-3 mt-md-0"
@@ -669,24 +670,19 @@ Footer START -->
     <!-- =======================
 Footer END -->
 
+<!-- Custom cursor -->
+<div class="cursor-dot-outline"></div>
+<div class="cursor-dot"></div>
 
-    <!-- Custom cursor -->
-    <div class="cursor-dot-outline"></div>
-    <div class="cursor-dot"></div>
+<!-- Back to top -->
+<div class="back-top">
+  <div class="scroll-line"></div>
+  <span class="scoll-text">Go Up</span>
+</div>
 
-    <!-- Back to top -->
-    <div class="back-top">
-      <div class="scroll-line"></div>
-      <span class="scoll-text">Go Up</span>
-    </div>
-
-    <!-- =======================
+<!-- =======================
 JS libraries, plugins and custom scripts -->
 
-    <!-- Bootstrap JS -->
-    <script src="assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    
-<!-- JavaScript to Set the Modal Carousel Slide Based on Clicked Image -->
 <script>
     document.querySelectorAll('.clickable-image').forEach(function(img) {
       img.addEventListener('click', function() {
@@ -699,42 +695,41 @@ JS libraries, plugins and custom scripts -->
       });
     });
   </script>
-  
-    <!-- Vendors -->
-    <script src="assets/vendor/glightbox/js/glightbox.js"></script>
-    <script src="assets/vendor/jarallax/jarallax.min.js"></script>
-    <script src="assets/vendor/tiny-slider/tiny-slider.js"></script>
-    <script src="assets/vendor/aos/aos.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-    <!-- Template Functions -->
-    <script src="assets/js/functions.js"></script>
-    <script>
-      $(document).ready(function () {
-        setTimeout(function () {
-          $("#exampleModalpromoimage").modal("show");
-        }, 1500);
-      });
-    </script>
-   
-  
-   <script>
-    document.querySelectorAll('.clickable-image').forEach(function(img) {
-      img.addEventListener('click', function() {
-        // Get the data-index attribute from the clicked image
-        var index = parseInt(img.getAttribute('data-index'), 10);
-        // Get the Bootstrap Carousel instance for the modal
-        var carousel = new bootstrap.Carousel(document.getElementById('modalCarousel'));
-        // Move the carousel to the clicked image index
-        carousel.to(index);
-      });
-    });
-  </script>
-  
-  <!-- Bootstrap Bundle JS (includes Popper) -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-  
-  
-    
-      
-  </body>
+<!-- Bootstrap JS -->
+<script src="assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Vendors -->
+<script src="assets/vendor/purecounterjs/dist/purecounter_vanilla.js"></script>
+<script src="assets/vendor/glightbox/js/glightbox.js"></script>
+<script src="assets/vendor/jarallax/jarallax.min.js"></script>
+<script src="assets/vendor/tiny-slider/tiny-slider.js"></script>
+<script src="assets/vendor/aos/aos.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<!-- Template Functions -->
+<script src="assets/js/functions.js"></script>
+<script>
+  $(document).ready(function () {
+    setTimeout(function () {
+      $("#exampleModalpromoimage").modal("show");
+    }, 1500);
+  });
+</script>
+</body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
