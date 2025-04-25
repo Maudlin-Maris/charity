@@ -10,9 +10,7 @@
   color: white;
   padding: 2rem;
 } 
-.reveal-colour {
-  background-image: linear-gradient(to right, #fd7e14 #fd14b7);
-}
+
 
 :root {
   --bs-blue: #007bff;
