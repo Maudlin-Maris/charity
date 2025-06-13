@@ -11,6 +11,14 @@
   padding: 2rem;
 } 
 
+   
+  .text-stroke-white {
+    color: white;
+    font-weight: bold;
+    -webkit-text-stroke: 1px white;
+    text-shadow: 0 0 2px black; /* Optional: slight contrast for visibility */
+  }
+
 
 :root {
   --bs-blue: #007bff;
